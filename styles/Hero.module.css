@@ -46,8 +46,8 @@
 .photoWrapper {
   flex-shrink: 0;
   position: relative;
-  width: 340px;
-  height: 340px;
+  width: 380px;
+  height: 380px;
 }
 
 .photoRing {

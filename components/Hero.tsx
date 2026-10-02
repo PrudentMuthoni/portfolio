@@ -104,7 +104,7 @@ export default function Hero() {
           <div className={styles.photoRing} />
           <div className={styles.photoContainer}>
             <img
-              src="/profile.jpeg"
+              src="/profile-image.png"
               alt="Prudent Muthoni, software engineer"
               className={styles.photo}
             />
