@@ -16,7 +16,7 @@ export default function Footer() {
               <span className={styles.logoBracket}>&#47;&gt;</span>
             </a>
             <p className={styles.footerTagline}>
-              Software Engineer specializing in web, data, ML, and security.
+              Software Engineer specializing in Frontend development, Backend development, Data and  Machine Learning, and security.
             </p>
           </div>
 
@@ -85,9 +85,6 @@ export default function Footer() {
         <div className={styles.footerBottom}>
           <p>
             &copy; {currentYear} Prudent Muthoni. All rights reserved.
-          </p>
-          <p className={styles.footerCredit}>
-            Built with Next.js &amp; React — no utility CSS framework
           </p>
         </div>
       </div>
