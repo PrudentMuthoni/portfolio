@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import styles from '@/styles/Footer.module.css';
+import styles from "@/styles/Footer.module.css";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -16,7 +16,8 @@ export default function Footer() {
               <span className={styles.logoBracket}>&#47;&gt;</span>
             </a>
             <p className={styles.footerTagline}>
-              Software Engineer specializing in Frontend development, Backend development, Data and  Machine Learning, and security.
+              Software Engineer specializing in Frontend development, Backend
+              development, Data and Machine Learning, and security.
             </p>
           </div>
 
@@ -45,7 +46,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="https://linkedin.com/"
+              href="https://www.linkedin.com/in/prudent-muthoni/"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.socialLink}
@@ -83,9 +84,7 @@ export default function Footer() {
         </div>
 
         <div className={styles.footerBottom}>
-          <p>
-            &copy; {currentYear} Prudent Muthoni. All rights reserved.
-          </p>
+          <p>&copy; {currentYear} Prudent Muthoni. All rights reserved.</p>
         </div>
       </div>
     </footer>

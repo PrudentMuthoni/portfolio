@@ -15,7 +15,8 @@
   padding: 28px;
   display: flex;
   flex-direction: column;
-  transition: border-color var(--transition-normal),
+  transition:
+    border-color var(--transition-normal),
     box-shadow var(--transition-normal),
     transform var(--transition-normal);
 }
@@ -96,7 +97,7 @@
 }
 
 .feature::before {
-  content: '✓';
+  content: "✓";
   position: absolute;
   left: 0;
   top: 0;

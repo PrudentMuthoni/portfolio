@@ -13,7 +13,8 @@
   border: 1px solid var(--border-color);
   border-radius: 14px;
   padding: 28px;
-  transition: border-color var(--transition-normal),
+  transition:
+    border-color var(--transition-normal),
     box-shadow var(--transition-normal),
     transform var(--transition-normal);
 }

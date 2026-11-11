@@ -1,12 +1,12 @@
-'use client';
+"use client";
 
-import styles from '@/styles/About.module.css';
+import styles from "@/styles/About.module.css";
 
 export default function About() {
   const highlights = [
     {
-      title: 'Web Development',
-      desc: 'Building responsive, performant web apps with React, Next.js, and modern JavaScript.',
+      title: "Web Development",
+      desc: "Building responsive, performant web apps with React, Next.js, and modern JavaScript.",
       icon: (
         <svg
           width="28"
@@ -24,8 +24,8 @@ export default function About() {
       ),
     },
     {
-      title: 'Data & ML',
-      desc: 'Designing data pipelines and deploying machine learning models that drive insights.',
+      title: "Data & ML",
+      desc: "Designing data pipelines and deploying machine learning models that drive insights.",
       icon: (
         <svg
           width="28"
@@ -44,8 +44,8 @@ export default function About() {
       ),
     },
     {
-      title: 'Cybersecurity',
-      desc: 'Securing applications through vulnerability analysis, secure coding, and penetration testing.',
+      title: "Cybersecurity",
+      desc: "Securing applications through vulnerability analysis, secure coding, and penetration testing.",
       icon: (
         <svg
           width="28"
@@ -82,9 +82,9 @@ export default function About() {
               My journey started with Python and data analysis, grew into
               building production web apps with React and Next.js, and expanded
               into deploying ML models and hardening applications against
-              real-world threats. I thrive at the intersection of these
-              domains — where great user experiences meet data-driven
-              intelligence and security by design.
+              real-world threats. I thrive at the intersection of these domains
+              — where great user experiences meet data-driven intelligence and
+              security by design.
             </p>
             <p>
               When I&apos;m not coding, you&apos;ll find me contributing to open

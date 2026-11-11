@@ -1,15 +1,15 @@
-'use client';
+"use client";
 
-import { useTheme } from './ThemeProvider';
-import styles from '@/styles/Navbar.module.css';
+import { useTheme } from "./ThemeProvider";
+import styles from "@/styles/Navbar.module.css";
 
 export default function Navbar() {
   const { theme, toggleTheme } = useTheme();
 
   const navLinks = [
-    { href: '#about', label: 'About' },
-    { href: '#skills', label: 'Skills' },
-    { href: '#projects', label: 'Projects' },
+    { href: "#about", label: "About" },
+    { href: "#skills", label: "Skills" },
+    { href: "#projects", label: "Projects" },
   ];
 
   return (
@@ -37,7 +37,7 @@ export default function Navbar() {
             onClick={toggleTheme}
             aria-label="Toggle dark mode"
           >
-            {theme === 'light' ? (
+            {theme === "light" ? (
               <svg
                 width="20"
                 height="20"

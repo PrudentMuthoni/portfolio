@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import styles from '@/styles/Hero.module.css';
+import styles from "@/styles/Hero.module.css";
 
 export default function Hero() {
   return (
@@ -23,8 +23,8 @@ export default function Hero() {
               View My Work
             </a>
             <a
-              href="https://docs.google.com/document/d/1YSzWj9ayq3OchPiSrYgP-C02oNTyi1U1TxkKDunXQ-k/edit?usp=sharing"
-              target="_blank" 
+              href="https://www.canva.com/design/DAHW4Pjds7M/M1uH5-K9hf888d7ojEq9Vw/edit"
+              target="_blank"
               rel="noopener noreferrer"
               className={styles.ctaCV}
             >
@@ -47,7 +47,7 @@ export default function Hero() {
           </div>
           <div className={styles.socialLinks}>
             <a
-              href="https://github.com/"
+              href="https://github.com/PrudentMuthoni"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.socialLink}
@@ -63,7 +63,7 @@ export default function Hero() {
               </svg>
             </a>
             <a
-              href="https://linkedin.com/"
+              href="https://www.linkedin.com/in/prudent-muthoni/"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.socialLink}
@@ -111,7 +111,11 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <a href="#about" className={styles.scrollIndicator} aria-label="Scroll down">
+      <a
+        href="#about"
+        className={styles.scrollIndicator}
+        aria-label="Scroll down"
+      >
         <span className={styles.scrollDot} />
       </a>
     </section>

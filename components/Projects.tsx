@@ -1,6 +1,6 @@
 "use client";
 
-import styles from '@/styles/Projects.module.css';
+import styles from "@/styles/Projects.module.css";
 
 interface Project {
   title: string;
@@ -14,89 +14,89 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'Skin Lesion Classification Portal',
-    category: 'Data & ML',
+    title: "Skin Lesion Classification Portal",
+    category: "Data & ML",
     description:
-      'A machine learning application that analyses skin lesion images and classifies them as benign or malignant.',
+      "A machine learning application that analyses skin lesion images and classifies them as benign or malignant.",
     features: [
-      'Image-based skin lesion classification',
-      'Machine learning predictions for uploaded images',
-      'Classification results to support preliminary assessment',
+      "Image-based skin lesion classification",
+      "Machine learning predictions for uploaded images",
+      "Classification results to support preliminary assessment",
     ],
-    tech: ['Python', 'TensorFlow', 'Scikit-learn'],
-    githubUrl: 'https://github.com/PrudentMuthoni/computer-vision.git',
+    tech: ["Python", "TensorFlow", "Scikit-learn"],
+    githubUrl: "https://github.com/PrudentMuthoni/computer-vision.git",
     liveUrl: null,
   },
   {
-    title: 'Pamodzi',
-    category: 'Agritech & Software Engineering',
+    title: "Pamodzi",
+    category: "Agritech & Software Engineering",
     description:
-      'An agricultural aggregation platform connecting smallholder farmers in Zambia with buyers through coordinated demand campaigns and cooperative collection hubs.',
+      "An agricultural aggregation platform connecting smallholder farmers in Zambia with buyers through coordinated demand campaigns and cooperative collection hubs.",
     features: [
-      'Matches buyer demand campaigns with aggregated farmer produce listings',
-      'USSD-based supply submission for farmers without smartphones',
-      'Coordinates produce collection through cooperative hubs',
+      "Matches buyer demand campaigns with aggregated farmer produce listings",
+      "USSD-based supply submission for farmers without smartphones",
+      "Coordinates produce collection through cooperative hubs",
     ],
-    tech: ['Python', 'FastAPI', 'PostgreSQL', 'USSD', 'Flutterwave'],
+    tech: ["Python", "FastAPI", "PostgreSQL", "USSD", "Flutterwave"],
     githubUrl: null,
     liveUrl: "https://phoenixdashboard.vercel.app/",
   },
   {
-    title: 'Vesper',
-    category: 'AI & Environmental Monitoring',
+    title: "Vesper",
+    category: "AI & Environmental Monitoring",
     description:
-      'A maritime monitoring platform designed to identify potential illegal fishing activity on Lake Kariba using satellite data and support coordinated patrol responses.',
+      "A maritime monitoring platform designed to identify potential illegal fishing activity on Lake Kariba using satellite data and support coordinated patrol responses.",
     features: [
-      'Uses NASA satellite data to identify unusual fishing activity',
-      'Generates alerts for potentially suspicious fishing zones',
-      'Enables patrol coordinators to assign officers for field verification',
+      "Uses NASA satellite data to identify unusual fishing activity",
+      "Generates alerts for potentially suspicious fishing zones",
+      "Enables patrol coordinators to assign officers for field verification",
     ],
-    tech: ['Satellite Data', 'Geospatial Analysis', 'Data Visualization'],
+    tech: ["Satellite Data", "Geospatial Analysis", "Data Visualization"],
     githubUrl: null,
     liveUrl: "https://insyte-informational-website.vercel.app/",
   },
   {
-    title: 'Taleora',
-    category: 'AI & Media',
+    title: "Taleora",
+    category: "AI & Media",
     description:
-      'An AI-powered video generation studio that allows users to create videos from written prompts or existing images.',
+      "An AI-powered video generation studio that allows users to create videos from written prompts or existing images.",
     features: [
-      'Generates videos from text descriptions',
-      'Transforms uploaded images into video content',
-      'Integrates AI video generation capabilities into a unified workflow',
+      "Generates videos from text descriptions",
+      "Transforms uploaded images into video content",
+      "Integrates AI video generation capabilities into a unified workflow",
     ],
-    tech: ['AI', 'Fal.ai', 'Text-to-Video', 'Image-to-Video'],
+    tech: ["AI", "Fal.ai", "Text-to-Video", "Image-to-Video"],
     githubUrl: "https://github.com/PrudentMuthoni/Taleora-Frontend.git",
     liveUrl: null,
   },
   {
-    title: 'Retrieval-Augmented Generation (RAG) System',
-    category: 'AI & Backend Development',
+    title: "Retrieval-Augmented Generation (RAG) System",
+    category: "AI & Backend Development",
     description:
-      'A document-based question-answering system that combines information retrieval with large language models to generate contextual responses grounded in uploaded documents.',
+      "A document-based question-answering system that combines information retrieval with large language models to generate contextual responses grounded in uploaded documents.",
     features: [
-      'Processes uploaded documents for information retrieval',
-      'Enables contextual search across document content',
-      'Generates answers grounded in retrieved document information',
+      "Processes uploaded documents for information retrieval",
+      "Enables contextual search across document content",
+      "Generates answers grounded in retrieved document information",
     ],
-    tech: ['Python', 'RAG', 'LLMs', 'Vector Search'],
+    tech: ["Python", "RAG", "LLMs", "Vector Search"],
     githubUrl: "https://github.com/PrudentMuthoni/LLM-hallucination-RAG.git",
     liveUrl: null,
   },
   {
-  title: 'House Prices Predictive Modeling Pipeline',
-  category: 'Data Science & Machine Learning',
-  description:
-    'A machine learning pipeline that predicts residential property values using Ridge regression, with structured preprocessing, leakage-free data handling and model evaluation.',
-  features: [
-    'Implements Scikit-learn Pipelines and ColumnTransformer for structured preprocessing',
-    'Prevents data leakage through training-only imputation and transformation',
-    'Visualizes prediction residuals and ranks the top 15 property price influencing features',
-  ],
-  tech: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Matplotlib'],
-  githubUrl: 'https://github.com/PrudentMuthoni/Data-Training.git',
-  liveUrl: null,
-},
+    title: "House Prices Predictive Modeling Pipeline",
+    category: "Data Science & Machine Learning",
+    description:
+      "A machine learning pipeline that predicts residential property values using Ridge regression, with structured preprocessing, leakage-free data handling and model evaluation.",
+    features: [
+      "Implements Scikit-learn Pipelines and ColumnTransformer for structured preprocessing",
+      "Prevents data leakage through training-only imputation and transformation",
+      "Visualizes prediction residuals and ranks the top 15 property price influencing features",
+    ],
+    tech: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib"],
+    githubUrl: "https://github.com/PrudentMuthoni/Data-Training.git",
+    liveUrl: null,
+  },
 ];
 
 export default function Projects() {
@@ -166,9 +166,7 @@ export default function Projects() {
 
               <h3 className={styles.projectTitle}>{project.title}</h3>
 
-              <p className={styles.projectDescription}>
-                {project.description}
-              </p>
+              <p className={styles.projectDescription}>{project.description}</p>
 
               <ul className={styles.featureList}>
                 {project.features.map((feature) => (

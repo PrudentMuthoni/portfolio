@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import styles from '@/styles/Skills.module.css';
+import styles from "@/styles/Skills.module.css";
 
 interface SkillCategory {
   title: string;
@@ -10,63 +10,63 @@ interface SkillCategory {
 
 const categories: SkillCategory[] = [
   {
-    title: 'Languages',
-    icon: 'code',
+    title: "Languages",
+    icon: "code",
     skills: [
-      { name: 'Python', level: 95 },
-      { name: 'JavaScript', level: 92 },
-      { name: 'TypeScript', level: 88 },
-      { name: 'SQL', level: 85 },
+      { name: "Python", level: 95 },
+      { name: "JavaScript", level: 92 },
+      { name: "TypeScript", level: 88 },
+      { name: "SQL", level: 85 },
     ],
   },
   {
-    title: 'Frontend',
-    icon: 'layout',
+    title: "Frontend",
+    icon: "layout",
     skills: [
-      { name: 'React', level: 93 },
-      { name: 'Next.js', level: 90 },
-      { name: 'HTML/CSS', level: 90 },
-      { name: 'Redux', level: 82 },
+      { name: "React", level: 93 },
+      { name: "Next.js", level: 90 },
+      { name: "HTML/CSS", level: 90 },
+      { name: "Redux", level: 82 },
     ],
   },
   {
-    title: 'Data & ML',
-    icon: 'data',
+    title: "Data & ML",
+    icon: "data",
     skills: [
-      { name: 'Pandas / NumPy', level: 92 },
-      { name: 'Scikit-Learn', level: 88 },
-      { name: 'TensorFlow / PyTorch', level: 80 },
-      { name: 'Data Visualization', level: 85 },
+      { name: "Pandas / NumPy", level: 92 },
+      { name: "Scikit-Learn", level: 88 },
+      { name: "TensorFlow / PyTorch", level: 80 },
+      { name: "Data Visualization", level: 85 },
     ],
   },
   {
-    title: 'Cybersecurity',
-    icon: 'shield',
+    title: "Cybersecurity",
+    icon: "shield",
     skills: [
-      { name: 'Penetration Testing', level: 82 },
-      { name: 'OWASP Top 10', level: 88 },
-      { name: 'Network Security', level: 80 },
-      { name: 'Secure Coding', level: 90 },
+      { name: "Penetration Testing", level: 82 },
+      { name: "OWASP Top 10", level: 88 },
+      { name: "Network Security", level: 80 },
+      { name: "Secure Coding", level: 90 },
     ],
   },
   {
-    title: 'Tools & DevOps',
-    icon: 'tools',
+    title: "Tools & DevOps",
+    icon: "tools",
     skills: [
-      { name: 'Git', level: 92 },
-      { name: 'Docker', level: 85 },
-      { name: 'CI/CD', level: 80 },
-      { name: 'Linux', level: 88 },
+      { name: "Git", level: 92 },
+      { name: "Docker", level: 85 },
+      { name: "CI/CD", level: 80 },
+      { name: "Linux", level: 88 },
     ],
   },
   {
-    title: 'Databases',
-    icon: 'database',
+    title: "Databases",
+    icon: "database",
     skills: [
-      { name: 'PostgreSQL', level: 88 },
-      { name: 'MongoDB', level: 80 },
-      { name: 'Redis', level: 75 },
-      { name: 'Supabase', level: 85 },
+      { name: "PostgreSQL", level: 88 },
+      { name: "MongoDB", level: 80 },
+      { name: "Redis", level: 75 },
+      { name: "Supabase", level: 85 },
     ],
   },
 ];
@@ -93,9 +93,7 @@ function CategoryIcon({ name }: { name: string }) {
         <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
       </>
     ),
-    shield: (
-      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-    ),
+    shield: <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />,
     tools: (
       <>
         <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
@@ -150,7 +148,9 @@ export default function Skills() {
                   <div key={skill.name} className={styles.skillItem}>
                     <div className={styles.skillInfo}>
                       <span className={styles.skillName}>{skill.name}</span>
-                      <span className={styles.skillPercent}>{skill.level}%</span>
+                      <span className={styles.skillPercent}>
+                        {skill.level}%
+                      </span>
                     </div>
                     <div className={styles.skillBar}>
                       <div
